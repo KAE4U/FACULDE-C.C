@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 3</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>LISTAS DE GLOSSÁRIO</h1>
+     <dl>
+        <dt>Aula 3 programação web responsiva</dt>
+        <dd>Falaremos sobre os tópicos de uso de listas e de tabelas dentro do HTML</dd>
+        <br>
+        <dt> Tópicos de Ambiente Web</dt>
+        <dd> Aula 01 - Internet </dd>
+        <dd> Aula 02 - Sites </dd>
+     </dl>
+     <h2>LISTAS ORDENADAS</h2>
+     <strong>ORGANIZA OS ITENS EM FORMA NUMERICA!</strong>
+     <ol>
+         <li>Ordena os elementos da lista de forma enumerada</li>
+         <li>Dessa forma!</li>
+         <li>Pode ser feita inumeras vezes</li>
+         <li>Com inumeros passos!</li>
+     </ol>
+     <li>corte ocorre!  </li>
+     <ol>
+         <li>pode cortar usando a tag /ol para finalizar uma lista e iniciar outra</li>
+     </ol>
+     <ol type="a">
+         <li>pode ser enumerada com letras!</li>
+         <li>indo de A a Z!</li>
+     </ol>
+     <ol type="I">
+        <li>E por</li>
+        <li>Numeros romanos!</li>
+     </ol>
+     <h3>LISTA NAO ORDENADA</h3>
+     <ul>
+        <li>Aqui não existem enumerações e nomenclaturas para ordenar!</li>
+        <li>Pode ter inumeras formas!</li>
+     </ul>
+     <ul type="square">
+        <li>podem ser quadrados ao em vez de bolinhas!</li>
+     </ul>
+     <h4>LISTA NAO ORDENADA ANINHADAS</h4>
+     <ul>
+        <h1>Pimentas</h1>
+        <ul>
+        <li>Elas são cortadas por outro ul dentro!</li>
+        <ul>
+        <li>coloca</li>
+        <li>entre</li>
+        <li>uma ul!</li>
+        </ul>
+        <li>Cria uma cascata!</li>
+        </ul>
+     </ul>
+    <h5>TABELAS EM HTML</h5>
+    <table border="2.5" width="55%" >
+        <tr>
+         <th>FRUTAS</th>
+         <th>LEGUMES</th>
+         <th>FLORES</th>
+        </tr>
+        <tr>
+        <td>Maçãs</td>  
+        <td>Cenouras</td>
+        <td>Margaridas</td>
+        </tr>
+        
+        <tr>
+        <td>Laranjas</td>
+        <td>Batatas</td>
+        <td>Orquídeas</td>
+        </tr>
+        
+        <tr>
+        <td>Peras</td>
+        <td>Abóbora</td>
+        <td>Rosas</td>  
+        </tr>
+        </table>
+        <h6>TABELA ROWSPAN</h6>
+        <table border="2">
+            <tr>
+            <th rowspan="2">Bandeiras</th>
+            <th>Países</th>
+            <th>Cores</th>
+            </tr>
+            <tr>
+            <td>Brasil</td>
+            <td>Verde</td>
+            </tr>
+            </table>
+        <h7>TABELA COLSPAN</h7>
+        <td colspan=""> 
+            <table border='3' width='30%'>
+            <tr>
+            <th>Flores</th>
+            <th>Flores</th>
+            </tr>
+            <tr>
+            <td>Camélia</td>
+            <td>Bromélia</td>
+            </tr>
+            </table>    
+            <h8>MESCLANDO CÉLULAS DAS TABELAS</h8>
+            <table border="3"  width="70%">
+                <caption align='top'>Legenda TOPO</caption>
+                <caption align='bottom'>Legenda RODAPÉ</caption>
+                <tr>
+                <th rowspan='4'>Roupas</th>
+                <th colspan='2'>Acessórios</th>
+                </tr>
+                <tr>
+                <th>Países</th>
+                <th>Cores</th>
+                </tr>
+                <tr>
+                <td>Escócia</td>
+                <td rowspan='2'>Azul</td>
+                </tr>
+                <tr>
+                <td>Inglaterra</td>
+                </tr>
+                </table>        
+</body>
+</html>
