@@ -1,0 +1,26 @@
+h1{
+    font-family: impact;
+    font-size: 3rem;
+    color:rgb(190, 105, 186);
+    }
+    
+    p{
+    font-size: 1.75rem; 
+    font-style:italic;
+    color:white; /*Definido cor branco*/
+    border:2px solid rgb(206, 58, 206);
+    }
+    .conteudo {
+        /* Preto com transparênciade 0.6*/
+        background-color: rgba(22, 24, 24, 0.705);
+        /* Espaçamento interno (5px topo e fundo, 40px esq. E dir.) */
+        padding: 5px 40px;
+        /* Altura */
+        height: 300px;
+        }   
+        body.bdAgua {
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-image: url(agua.jpeg)
+        }
+           
